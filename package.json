@@ -1,0 +1,14 @@
+{
+  "name": "guuu.io",
+  "version": "1.0.0",
+  "repository": "git@github.com:darrenjennings/guuu.io.git",
+  "author": "Darren Jennings <dmjenn02@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "vuepress": "^0.14.8"
+  }
+}
