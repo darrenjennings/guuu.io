@@ -706,13 +706,13 @@
   dependencies:
     lodash.throttle "^4.1.1"
 
-"@vuepress/plugin-blog@^1.0.0-alpha.0":
-  version "1.0.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/@vuepress/plugin-blog/-/plugin-blog-1.0.0-alpha.0.tgz#41136410cf3d5ddfbd577e699a92daf18c04a180"
+"@vuepress/plugin-blog@^1.0.0-alpha.30":
+  version "1.0.0-alpha.30"
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-blog/-/plugin-blog-1.0.0-alpha.30.tgz#f9973ead85d3b2e8b29ec4d64c8ad1faf13538b8"
 
-"@vuepress/plugin-google-analytics@^1.0.0-alpha.0":
-  version "1.0.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/@vuepress/plugin-google-analytics/-/plugin-google-analytics-1.0.0-alpha.0.tgz#97acb3a512dca9b2b6e4014fa2d58da38e2a01b9"
+"@vuepress/plugin-google-analytics@^1.0.0-alpha.30":
+  version "1.0.0-alpha.30"
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-google-analytics/-/plugin-google-analytics-1.0.0-alpha.30.tgz#edda7e47ec322ff5289f51cfe82b589abc85894d"
 
 "@vuepress/plugin-last-updated@^1.0.0-alpha.30":
   version "1.0.0-alpha.30"
@@ -720,17 +720,17 @@
   dependencies:
     cross-spawn "^6.0.5"
 
-"@vuepress/plugin-medium-zoom@^1.0.0-alpha.0":
-  version "1.0.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/@vuepress/plugin-medium-zoom/-/plugin-medium-zoom-1.0.0-alpha.0.tgz#efb6bd10d41c64161e3e25d6108fe527ebd4abad"
+"@vuepress/plugin-medium-zoom@^1.0.0-alpha.30":
+  version "1.0.0-alpha.30"
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-medium-zoom/-/plugin-medium-zoom-1.0.0-alpha.30.tgz#b72c6d488d3429be1d4c88b3cbbe5335e62acac0"
   dependencies:
     medium-zoom "^0.4.0"
 
-"@vuepress/plugin-pwa@^1.0.0-alpha.0":
-  version "1.0.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/@vuepress/plugin-pwa/-/plugin-pwa-1.0.0-alpha.0.tgz#6726f6ae2ec4e30f72f5583d42f6f9c79711180e"
+"@vuepress/plugin-pwa@^1.0.0-alpha.30":
+  version "1.0.0-alpha.30"
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-pwa/-/plugin-pwa-1.0.0-alpha.30.tgz#c073d0e0a3d4cfc31c5d7fe2291762ab6c22f26f"
   dependencies:
-    "@vuepress/shared-utils" "^1.0.0-alpha.0"
+    "@vuepress/shared-utils" "^1.0.0-alpha.30"
     register-service-worker "^1.5.2"
     workbox-build "^3.1.0"
 
@@ -743,16 +743,6 @@
 "@vuepress/plugin-search@^1.0.0-alpha.30":
   version "1.0.0-alpha.30"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-search/-/plugin-search-1.0.0-alpha.30.tgz#3ece9654b139de75efdc5f5dcd84bcb39073baaa"
-
-"@vuepress/shared-utils@^1.0.0-alpha.0":
-  version "1.0.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/@vuepress/shared-utils/-/shared-utils-1.0.0-alpha.0.tgz#9bc363bfa01c0474f222e8420be53886469a5cf8"
-  dependencies:
-    chalk "^2.3.2"
-    escape-html "^1.0.3"
-    fs-extra "^5.0.0"
-    globby "^8.0.1"
-    hash-sum "^1.0.2"
 
 "@vuepress/shared-utils@^1.0.0-alpha.30":
   version "1.0.0-alpha.30"

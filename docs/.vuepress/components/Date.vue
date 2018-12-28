@@ -27,12 +27,3 @@
     },
   }
 </script>
-
-<style>
-.date {
-  font-weight: 400;
-  font-size: 14px;
-  color: hsl(0,0%, 60%);
-  
-}
-</style>

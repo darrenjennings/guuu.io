@@ -2,11 +2,11 @@
   <div class="theme-container post">
     <Content slot-key="header"/>
     <div class="wrapper">
-      <span style="color: hsl(0, 0%, 60%)"><Date/> · <ReadingTime /></span>
+      <span style="meta"><Date/> · <ReadingTime /></span>
     </div>
     <Layout/>
     <div class="wrapper">
-      Tags: <Tags style="margin: 0.5rem 0 2rem 0;"/>
+      Tags: <TagBadges style="margin: 0.5rem 0 2rem 0;"/>
     </div>
     <Bio/>
   </div>
@@ -37,6 +37,12 @@ export default {
 
 .post .date-container {
   display:inline-block;
+}
+
+.post .meta {
+  font-weight: 400;
+  font-size: 14px;
+  color: hsl(0,0%, 60%);
 }
 
 .post .content:not(.custom) {

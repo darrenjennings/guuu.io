@@ -3,7 +3,7 @@ title: Open Sourcing My First Vue Component
 description: I open sourced vue-autosuggest, and wrote about it.
 date: "2017-12-01T17:36:55.338Z"
 layout: Post
-tags: [vue, oss]
+tags: [vue, oss, vue-autosuggest]
 ---
 
 ::: slot header

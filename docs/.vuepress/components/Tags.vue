@@ -1,33 +1,21 @@
 <template>
-  <div class="tags">
-    <div class="tag" v-for="tag in tagList">
-      <Badge>{{ tag }}</Badge>
-    </div>  
+  <div class="theme-container">
+    <div class="content" v-for="data, name in $tags.list">
+      {{ data.name }}
+    </div>
+    <Layout />
   </div>
 </template>
 
 <script>
-  export default {
-    computed: {
-      tagList() {
-        return this.$page.frontmatter.tags
-      }
-    }
-  }
+import Layout from '@vuepress/theme-default/layouts/Layout'
+export default {
+  components: { Layout }
+}
 </script>
 
-<style lang="stylus">
-.tags {
-    display: flex;
-  align-items: center;
-  justify-content: left;
-  width: 100%;
-  display: flex;
-}
-.tags .tag {
-  float: left;
-}
-.tag .badge {
-  background-color: $tagBadgeColor !important;
+<style>
+.theme-container {
+  margin-top: 2rem;
 }
 </style>
