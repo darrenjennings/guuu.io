@@ -6,6 +6,7 @@ module.exports = {
     '@vuepress/blog',
     '@vuepress/google-analytics',
     '@vuepress/medium-zoom',
+    '@vuepress/pwa',
     require('./plugins/vuepress-reading-time')
   ],
   themeConfig: {
@@ -13,5 +14,6 @@ module.exports = {
       { text: 'About', link: '/about/' },
     ]
   },
-  ga: 'UA-111768356-2'
+  serviceWorker: true,
+  ga: 'UA-131453250-1'
 }
