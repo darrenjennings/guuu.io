@@ -26,9 +26,8 @@
   }
 </script>
 
-<style lang="stylus">
+<style>
 .tags {
-  display: flex;
   align-items: center;
   justify-content: left;
   width: 100%;
@@ -40,6 +39,7 @@
 }
 
 .tag .badge {
-  background-color: $tagBadgeColor !important;
+  background-color: var(--tag-badge-color) !important;
+  white-space: nowrap;
 }
 </style>

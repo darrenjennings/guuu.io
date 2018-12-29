@@ -1,12 +1,12 @@
 <template>
-  <div class="theme-container post">
+  <div class="post">
     <Content slot-key="header"/>
-    <div class="wrapper">
-      <span style="meta"><Date/> · <ReadingTime /></span>
+    <div class="meta wrapper">
+      <Date/> · <ReadingTime />
     </div>
     <Layout/>
     <div class="wrapper">
-      Tags: <TagBadges style="margin: 0.5rem 0 2rem 0;"/>
+      <PostFooter />
     </div>
     <Bio/>
   </div>
@@ -22,9 +22,9 @@ export default {
 
 
 <style>
-
 .post .content {
-  padding: 0 2rem 0;
+  padding: 0 1.5rem 0;
+  max-width: var(--content-width);
 }
 
 .post .content:not(.custom) > h1:first-child {
@@ -37,6 +37,7 @@ export default {
 
 .post .date-container {
   display:inline-block;
+  margin-top: 0.25rem;
 }
 
 .post .meta {
@@ -45,7 +46,4 @@ export default {
   color: hsl(0,0%, 60%);
 }
 
-.post .content:not(.custom) {
-  padding: 0;
-}
 </style>
