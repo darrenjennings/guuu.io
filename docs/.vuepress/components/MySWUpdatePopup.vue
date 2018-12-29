@@ -21,6 +21,7 @@ export default {
 .my-sw-update-popup {
   text-align: right;
   position: fixed;
+  z-index: 10;
   bottom: 20px;
   right: 20px;
   background-color: #fff;
@@ -34,5 +35,6 @@ export default {
   border: 1px solid #fefefe;
   font-size: 1rem;
   margin: 1rem 0 0 1rem;
+  cursor: pointer;
 }
 </style>
