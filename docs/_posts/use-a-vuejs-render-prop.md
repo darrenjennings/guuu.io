@@ -175,9 +175,7 @@ September 25, 2017](https://twitter.com/youyuxi/status/912422434300710912?ref_sr
 If you were to do “render props” with templates, a similar design would be to 
 use scoped slots and would look something like this:
 <iframe src="https://codesandbox.io/embed/5vxn0nzj0l" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
-Vue Scoped slots are powerful when using templates
-
-Some advantages to scoped slots are that
+Vue Scoped slots are powerful when using templates **Some advantages to scoped slots:**
 - custom parent-child template injection without a render function or jsx.
 - you can specify default content easily. In the above example, I pass in a 
 specified slot, that defines a custom message, but when I don’t specify a slot, 

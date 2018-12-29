@@ -3,7 +3,7 @@ title: Open Sourcing My First Vue Component
 description: I open sourced vue-autosuggest, and wrote about it.
 date: "2017-12-01T17:36:55.338Z"
 layout: Post
-tags: [vue, oss]
+tags: [vue, oss, vue-autosuggest]
 ---
 
 ::: slot header
@@ -31,7 +31,7 @@ Here’s what I found helpful traversing the mire.
 It’s always a good idea to contribute to Open Source Software
 [#OSS](https://twitter.com/search?q=%23OSS) by solving a problem that you
 already have. As
-[Max Stoiber says](https://medium.com/r/?url=https%3A%2F%2Fmxstbr.blog%2F2017%2F02%2Fcreating-open-source-projects%2F),
+[Max Stoiber says](https://mxstbr.blog/2017/02/creating-open-source-projects/),
 open source is a byproduct of solving problems. If you’re already building
 reusable components, why not make them available for everyone and learn some
 things in the process? If your components seem too tightly coupled to your
@@ -244,6 +244,6 @@ and of course go checkout
 
 Helpful links:
 
-* [https://alexjoverm.github.io/2017/08/21/Write-the-first-Vue-js-Component-Unit-Test-in-Jest/](https://alexjoverm.github.io/2017/08/21/Write-the-first-Vue-js-Component-Unit-Test-in-Jest/)
-* [https://www.manning.com/books/testing-vuejs-applications](https://www.manning.com/books/testing-vuejs-applications)
-* [https://eddyerburgh.me/unit-test-vue-components-beginners](https://eddyerburgh.me/unit-test-vue-components-beginners)
+* [Write the first Vue js Component Unit Test in Jest/](https://alexjoverm.github.io/2017/08/21/Write-the-first-Vue-js-Component-Unit-Test-in-Jest/)
+* [Book - Testing Vuejs Applications](https://www.manning.com/books/testing-vuejs-applications)
+* [Edd Yerburgh - Unit test vue components beginners](https://eddyerburgh.me/unit-test-vue-components-beginners)

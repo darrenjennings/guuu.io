@@ -1,11 +1,12 @@
 <template>
   <div class="bio-wrapper">
-    <div class="bio wrapper">
-      <img src="/avatar.png">
+    <div class="bio">
+      <Avatar class="avatar" />
       <div class="bio-text">
         Thanks for reading! I'm Darren Jennings. I live in San Francisco, but am a
         Kentuckian at heart. You can follow me on
         <a
+          target="_blank"
           href="https://www.twitter.com/darrenjennings"
         >twitter
           <OutboundLink/>
@@ -20,6 +21,7 @@
   background-color:  hsl(220, 12%, 97%);
 }
 .bio {
+  max-width: var(--content-width, 640px);
   margin: 0 auto;
   display: flex;
   padding: 2rem;
@@ -34,10 +36,9 @@
 a:hover {
   color: #3574FF;
 }
-img {
+
+.avatar {
   padding-right: 1rem;
-  width: auto;
-  height: 75px;
 }
 
 </style>

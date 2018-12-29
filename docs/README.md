@@ -4,8 +4,6 @@ permalink: /
 description: Darren Jennings
 ---
 
-# guuu
-
-<router-link to="/about/">about</router-link>
+<Avatar header-text="guuu"/>
 
 <Archive />

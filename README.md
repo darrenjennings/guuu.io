@@ -1,8 +1,8 @@
-# Guuu.io
+# 🗜 guuu.io
 
-My website. Built with [vuepress](https://vuepress.vuejs.org)
+The source for [https://guuu.io](https://guuu.io). Built with 🖖🏻 [vuepress](https://vuepress.vuejs.org).
 
-### Local
+## Local
 ```bash
 # Install dependencies
 yarn
@@ -13,3 +13,8 @@ yarn docs:dev
 # Build assets for static site output
 yarn docs:build
 ```
+
+## Deploy
+
+Merges to master automatically deploy via [Netlify](https://www.netlify.com)
+

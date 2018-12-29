@@ -2,7 +2,7 @@
 permalink: /about
 ---
 
-# About guuu
+<Avatar header-text="About Me"/>
 
 :wave: Hello, I'm Darren Jennings, aka `guuu`. You can reach me on [twitter],
 [github], or [linkedin].
