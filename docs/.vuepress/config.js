@@ -6,7 +6,9 @@ module.exports = {
       permalink: '/:year/:slug'
     }],
     '@vuepress/google-analytics',
-    '@vuepress/medium-zoom',
+    ['@vuepress/medium-zoom', {
+      selector: '.post .content img'
+    }],
     ['@vuepress/pwa', {
       serviceWorker: true,
       popupComponent: 'MySWUpdatePopup',
