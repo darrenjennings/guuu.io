@@ -5,6 +5,7 @@ permalink: beautiful-vue/data-reducer
 date: 2018-12-30 16:16
 tags: [vue, patterns, beautiful-vue]
 layout: Post
+editLinkPath: docs/_posts/beautiful-vue/data-reducer.md
 ---
 
 ::: slot header
