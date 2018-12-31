@@ -27,9 +27,9 @@ Items in cart: <Counter />
   </div>
 </CodePreview>
 
-First thing you will notice is that this component is too basic. It needs some
-enhanced functionality. Users shouldn't be able to add negative items to their
-cart. Since this is the "counter" component it would make sense to make it
+The first thing you will notice is that this component is too basic. It needs
+some enhanced functionality. Users shouldn't be able to add negative items to
+their cart. Since this is the "counter" component it would make sense to make it
 reusable, so instead of making every counter enforce a positive total, we can
 add a `min` property.
 
@@ -46,9 +46,9 @@ allows users to upvote or downvote. They would like a new property `max` and the
 ability to change the button text, as the buttons will now be emojis
 :thumbsdown: :thumbsup:. They also would like a callback function, that triggers
 every time the counter is changed so they can make an XHR request to the voting
-API. They want the api to be flexible, because while they are using emojis now,
-they're really keen to eventually use in-house icons, so the content should be
-slotted to "future-proof" it.
+API. They want the component's api to be flexible because while they are using
+emojis now, they're really keen to eventually use in-house icons, so the content
+should be slotted to "future-proof" it.
 
 ```vue
 <Counter :max="10" :min="-10" @click="onVoteClick">
@@ -89,7 +89,7 @@ prepares the meal as you ordered it from the menu (no onion, extra pickles,
 gluten-free i.e. the component's input props). However, when you finally get the
 meal delivered to your table, you decide that it needs to be cut into fourths
 because you want to share with your kids, and also the chef gave you a lettuce
-wrap because that's the only gluten free option, but your six year old hates
+wrap because that's the only gluten-free option, but your six-year old hates
 lettuce so you remove the lettuce from only their portion. The Data Reducer is
 all the decisions you made before you finally ate the food. The best part is
 that the chef was able to do what they do best, while the patrons were still
@@ -145,7 +145,6 @@ export default {
       // via the reducer prop (i.e. the Data reducer)
       //                      ┌─────this guy
       const changes = this.reducer(this.$data, {
-                              
         count: this.count + amount
       })
       // Apply the changes
