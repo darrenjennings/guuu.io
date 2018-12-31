@@ -156,6 +156,31 @@ export default {
 </script>
 ```
 
+and then using the component inside the App:
+```vue
+<!-- App.vue -->
+<template>
+  <Counter :reducer="counterReduce" />
+</template>
+
+<script>
+import counter from "./counter";
+
+export default {
+  components: { counter },
+  methods: {
+    // Max of 3
+    counterReduce(state, changes) {
+      return {
+        ...changes,
+        count: changes.count > 3 ? 3 : changes.count
+      }
+    }
+  }
+};
+</script>
+```
+
 Here are some features we can build now that we have a reducer.
 
 Max / Min
