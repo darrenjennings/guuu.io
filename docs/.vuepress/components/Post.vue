@@ -31,6 +31,10 @@ export default {
   margin-bottom: 0 !important;
 }
 
+.content:not(.custom) > *:first-child {
+    margin-top: 2rem;
+}
+
 .post .content.header{
   margin-top: 2rem;
 }

@@ -1,3 +1,5 @@
+const { path } = require('@vuepress/shared-utils')
+
 module.exports = {
   title: '🗜 guuu',
   description: ' ',
@@ -14,6 +16,12 @@ module.exports = {
       popupComponent: 'MySWUpdatePopup',
       updatePopup: true
     }],
+    ['@vuepress/register-components', { 
+        componentsDir: [
+          path.resolve('docs/.vuepress/components/beautiful-vue')
+        ]
+      }
+    ],
     require('./plugins/vuepress-reading-time')
   ],
   head: [
