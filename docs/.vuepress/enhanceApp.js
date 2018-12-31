@@ -6,4 +6,8 @@ export default ({
 }) => {
   console.log(`Whoever rebukes a man will afterward 
               find more favor than he who flatters with his tongue.`)
+
+  router.addRoutes([
+    { path: '/beautiful-vue/', redirect: 'beautiful-vue/data-reducer/' },
+  ])          
 }
