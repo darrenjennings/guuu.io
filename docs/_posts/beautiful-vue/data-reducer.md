@@ -2,7 +2,7 @@
 title: "Beautiful Vue Part 1: The Data Reducer"
 description: Vue Patterns - The Data Reducer
 permalink: beautiful-vue/data-reducer
-date: 2018-12-30 16:16
+date: 2018-12-30 16:16:00
 tags: [vue, patterns, beautiful-vue]
 layout: Post
 editLinkPath: docs/_posts/beautiful-vue/data-reducer.md
