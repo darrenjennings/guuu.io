@@ -22,6 +22,12 @@ module.exports = {
         ]
       }
     ],
+    /* Generated and edited manually for now
+    ['sitemap', {
+      hostname: 'https://guuu.io',
+    }], 
+    */
+    [require('./plugins/copy-sitemap')],
     require('./plugins/vuepress-reading-time')
   ],
   head: [
