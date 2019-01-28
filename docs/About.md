@@ -26,7 +26,11 @@ Session plugin for Kong.
 - [react-apiembed](https://www.github.com/kong/react-apiembed) a set 
 of react componenets to generate code snippets from HARs.
 
-### This blog :book:
+### :microphone: Talks
+
+- [January 2019 - Vue.SF Meetup @ Kong HQ](https://github.com/darrenjennings/vuejs-sf-january-2019)
+
+### :book: This blog
 
 I built this blog using [Vue's](https://vuejs.org) static site generator 
 [Vuepress](https://vuepress.vuejs.org/). It's completely static (for now) and

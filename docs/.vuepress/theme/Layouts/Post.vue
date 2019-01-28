@@ -4,7 +4,7 @@
     <div class="meta wrapper">
       <Date/> · <ReadingTime />
     </div>
-    <Layout/>
+    <ParentLayout />
     <div class="wrapper">
       <PostFooter />
     </div>
@@ -13,10 +13,10 @@
 </template>
 
 <script>
-import Layout from '@vuepress/theme-default/layouts/Layout'
+import ParentLayout from '@parent-theme/layouts/Layout.vue'
 
 export default {
-  components: { Layout }
+  components: { ParentLayout }
 }
 </script>
 
@@ -31,7 +31,7 @@ export default {
   margin-bottom: 0 !important;
 }
 
-.content:not(.custom) > *:first-child {
+.post .content:not(.custom) > *:first-child {
     margin-top: 2rem;
 }
 
