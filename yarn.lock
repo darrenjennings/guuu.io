@@ -770,13 +770,15 @@
   dependencies:
     lodash.throttle "^4.1.1"
 
-"@vuepress/plugin-blog@^1.0.0-alpha.32":
+"@vuepress/plugin-blog@1.0.0-alpha.32":
   version "1.0.0-alpha.32"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-blog/-/plugin-blog-1.0.0-alpha.32.tgz#e9cdd43c3253d804f23549d11d9f0ccd9bacec91"
+  integrity sha512-GQDapngpxTEBeCgC58Viva6DuH0BhbgCLa62chPZtX1y144qYtQD3vDyuN33efRO4reeHPFHGYvX0L8lL9MvKQ==
 
-"@vuepress/plugin-google-analytics@^1.0.0-alpha.32":
+"@vuepress/plugin-google-analytics@1.0.0-alpha.32":
   version "1.0.0-alpha.32"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-google-analytics/-/plugin-google-analytics-1.0.0-alpha.32.tgz#70cec28f379e2fb0364edc41298735c5e2489ab1"
+  integrity sha512-AHbWfV6Q0c4IStH/ncPle/LMwrYoj6wXCdZFjcbGUmpsNhEgjXnpK8ZvQg5d7CEjr2SxWs1S9wNHgvR1Gd9ynw==
 
 "@vuepress/plugin-last-updated@^1.0.0-alpha.32":
   version "1.0.0-alpha.32"
@@ -784,9 +786,10 @@
   dependencies:
     cross-spawn "^6.0.5"
 
-"@vuepress/plugin-medium-zoom@^1.0.0-alpha.32":
+"@vuepress/plugin-medium-zoom@1.0.0-alpha.32":
   version "1.0.0-alpha.32"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-medium-zoom/-/plugin-medium-zoom-1.0.0-alpha.32.tgz#ecf30a27a631f83134467de0512ab0b9efaf8ae6"
+  integrity sha512-BJCTjCrEtvscqEHi4GhX2x8VuzNX2ucd7he1gaUMJF70+Ul/yQM0H6cKDO3GgsHj1skb6IhmwCR185FWDPNwSA==
   dependencies:
     medium-zoom "^0.4.0"
 
@@ -796,17 +799,19 @@
   dependencies:
     nprogress "^0.2.0"
 
-"@vuepress/plugin-pwa@^1.0.0-alpha.32":
+"@vuepress/plugin-pwa@1.0.0-alpha.32":
   version "1.0.0-alpha.32"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-pwa/-/plugin-pwa-1.0.0-alpha.32.tgz#4ed45ff596b91ae56170ee1800cee131998b3f47"
+  integrity sha512-T+vUIatMgfrUZOLM3u4Ii0NLQKoxsU/WIyk5iutR7BgtikGGoG5fz1nz3dX9s/FNeZG/tqgngPbbnOFFDzNTvw==
   dependencies:
     "@vuepress/shared-utils" "^1.0.0-alpha.32"
     register-service-worker "^1.5.2"
     workbox-build "^3.1.0"
 
-"@vuepress/plugin-register-components@^1.0.0-alpha.32":
+"@vuepress/plugin-register-components@1.0.0-alpha.32", "@vuepress/plugin-register-components@^1.0.0-alpha.32":
   version "1.0.0-alpha.32"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-register-components/-/plugin-register-components-1.0.0-alpha.32.tgz#80c5ba7812ce1fc9177941e66660674c6debdf9a"
+  integrity sha512-Gn0cVmDpUJDHZB4MSJh3OAH37UvE4WoFNJxeyAVQ+usfuDEJcbAYpSb6CuT/By2XoWow7hAtBYcTAPF+hlf4rw==
   dependencies:
     "@vuepress/shared-utils" "^1.0.0-alpha.32"
 
@@ -6282,9 +6287,10 @@ vuepress-plugin-sitemap@^2.1.0:
   dependencies:
     sitemap "^2.0.1"
 
-vuepress@^1.0.0-alpha.32:
+vuepress@1.0.0-alpha.32:
   version "1.0.0-alpha.32"
   resolved "https://registry.yarnpkg.com/vuepress/-/vuepress-1.0.0-alpha.32.tgz#db19e7af222e585de3bab060d8fc90a40cb8923a"
+  integrity sha512-Yt5JZQPziZ/PwG348b6lpqYzwg9eaLBTlKSvSo6PLR0jj1YCNXoAM/8+/6dT3zT9sktXgMsizB9r22X3C0bi0w==
   dependencies:
     "@vuepress/core" "^1.0.0-alpha.32"
     "@vuepress/theme-default" "^1.0.0-alpha.32"
