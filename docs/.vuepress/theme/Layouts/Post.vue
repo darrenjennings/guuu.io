@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import ParentLayout from '@vuepress/theme-default/layouts/Layout'
+import ParentLayout from '@parent-theme/layouts/Layout.vue'
 
 export default {
   components: { ParentLayout }
