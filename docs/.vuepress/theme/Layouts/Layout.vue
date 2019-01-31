@@ -3,11 +3,11 @@
 </template>
 
 <script>
-import ParentLayout from '@parent-theme/layouts/Layout.vue'
+import ParentLayout from '@vuepress/theme-default/layouts/Layout'
 
 export default {
   components: {
-    ParentLayout
+    Layout
   }
 }
 </script>
