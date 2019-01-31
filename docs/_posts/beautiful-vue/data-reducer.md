@@ -104,7 +104,7 @@ gives the power to the user (i.e. inverting control) over how state is mutated
 and gives users a hook into the functionality without having to anticipate all
 possible state transitions.
 
-```vue
+```vue{41}
 <!-- Counter.vue -->
 <template>
   <div>

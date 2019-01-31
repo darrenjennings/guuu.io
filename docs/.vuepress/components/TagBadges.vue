@@ -1,9 +1,9 @@
 <template>
   <div class="tags">
     <div class="tag" v-for="tag in tagList">
-      <!-- <router-link :to="$tags.map[tag].path"> -->
+      <router-link :to="$tags.map[tag].path">
       <Badge>{{ tag }}</Badge>
-      <!-- </router-link> -->
+      </router-link>
     </div>
   </div>
 </template>
