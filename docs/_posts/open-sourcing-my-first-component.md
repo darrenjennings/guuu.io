@@ -10,7 +10,7 @@ tags: [vue, oss, vue-autosuggest]
 # {{ this.$page.title }}
 :::
 
-![Vue Open Source Hero](./images/vue-link.png)
+![Vue Open Source Hero](https://s3.amazonaws.com/guuu/vue-link.png)
 
 > **tl;dr** I open sourced vue-autosuggest, and wrote about it. Check out the
 > <a href="https://www.github.com/Educents/vue-autosuggest" target="_blank">source

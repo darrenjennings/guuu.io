@@ -10,8 +10,8 @@ tags: [vue, vue-autosuggest]
 # {{ this.$page.title }}
 :::
 
-![Vue-autosuggest slots](./images/vue-autosuggest-sloth.jpeg)
-> Did someone say sloths?
+![Vue-autosuggest slots](https://s3.amazonaws.com/guuu/vue-autosuggest-sloth.jpeg)
+_Did someone say sloths?_
 
 
 ## Slots!

@@ -10,7 +10,9 @@ tags: [vue, patterns, react]
 # {{ this.$page.title }}
 :::
 
-![Vuejs Render Prop](./images/vue_react.jpeg)
+![Vuejs Render Prop](https://s3.amazonaws.com/guuu/vue_react.jpeg)
+
+> This post was originally posted on [vue.js developers](https://vuejsdevelopers.com/2018/01/15/vue-js-render-props/)
 
 ***UPDATE**: I’m using render props in [vue-autosuggest](https://github.com/darrenjennings/vue-autosuggest) in the renderSuggestion prop, so go check it out!*
 
