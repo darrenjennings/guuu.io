@@ -1,5 +1,5 @@
 ---
-title: "Beautiful Vue Part 1: The Data Reducer"
+title: "Vue Patterns - The Data Reducer"
 description: Vue Patterns - The Data Reducer
 permalink: beautiful-vue/data-reducer
 date: 2018-12-30 16:16:00
@@ -12,8 +12,6 @@ editLinkPath: docs/_posts/beautiful-vue/data-reducer.md
 # {{ this.$page.title }}
 :::
 
-> This is the first in a series of blog posts describing Vue patterns that I
-> have found helpful, and I hope it helps you too.
 
 Imagine that you are writing a Vue application for a shopping cart, where the
 user is able to control how many items they want in their cart.
