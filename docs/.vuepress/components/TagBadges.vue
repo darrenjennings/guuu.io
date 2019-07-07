@@ -38,6 +38,7 @@
 
 .tags .tag {
   float: left;
+  margin-right: 0.25rem;
 }
 
 .tag .badge {
