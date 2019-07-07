@@ -34,8 +34,9 @@ I like open source and contribute/maintain some libraries. Some of my favorites:
 
 ### :microphone: Talks
 
-- [Podcast: Views on Vue](https://devchat.tv/views-on-vue/vov-046-component-composition-at-kong-with-darren-jennings/)
-- [Meetup: Vue.SF Meetup @ Kong HQ](https://github.com/darrenjennings/vuejs-sf-january-2019)
+- Dec 4, 2018 [Podcast: Views on Vue](https://devchat.tv/views-on-vue/vov-046-component-composition-at-kong-with-darren-jennings/)
+- Jan 24, 2019 [Vue.SF Meetup @ Kong HQ - Open Source Your Components](https://github.com/darrenjennings/vuejs-sf-january-2019)
+- Jun 12, 2019 [Vue.SF Meetup @ SAP - Building Autosuggest Components](https://github.com/darrenjennings/vuejs-sf-june-2019)
 
 ### :book: This blog
 
