@@ -19,7 +19,7 @@ export default {
 }
 
 .page .content:not(.custom) {
-  margin: 2rem auto;
+  margin: 1rem 1.5rem;
 }
 
 .post .content:not(.custom) > h1:first-child {
