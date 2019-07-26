@@ -1,7 +1,7 @@
 <template>
   <div class="top">
     <router-link to="/about/" class="avatar">
-      <img alt="Darren Jennings face" src="/avatar.png"/>
+      <img alt="Darren Jennings face" src="/avatar_blanket.png"/>
     </router-link>
     <h1 v-if="headerText">{{ headerText }}</h1>
   </div>
@@ -26,6 +26,7 @@ export default {
 img {
   height: 75px;
   width: auto;
+  border-radius: 37.5px;
 }
 
 .avatar + h1 {
