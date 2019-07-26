@@ -4,14 +4,14 @@ permalink: /about
 
 <Avatar header-text="About Me"/>
 
-:wave: Hello, I'm Darren Jennings, aka `guuu`. You can reach me on [twitter],
-[github], or [linkedin].
+Welcome to my personal website. I'm Darren Jennings. You can reach me on
+[twitter], [github], or [linkedin].
 
-I mostly blog about engineering things, but when I'm not talking about [Vue]. I
-like to [brew coffee](https://www.thecoffeecompass.com/), practice Brazilian Jiu
-Jitsu, and spend time with my family,
-[nuclear](https://twitter.com/darrenjennings/status/1077663344767586304) and
-[ecclesiastical](https://www.citizenssf.com/).
+I mostly blog about engineering things, mostly [Vue]. For hobbies, I like to
+[brew coffee](https://www.thecoffeecompass.com/), practice
+[Brazilian Jiu Jitsu](https://derbycitymartialarts.com/), and spend time with my
+family, [nuclear](https://twitter.com/darrenjennings/status/1077663344767586304)
+and [ecclesiastical](https://www.sojournchurch.com/).
 
 I'm currently Tech Lead at [Kong] where I lead frontend architecture, our Vue
 component library, as well as write cool stuff for our entirely Lua backend
@@ -21,7 +21,7 @@ built on top of [Open Resty].
 
 ### Open Source
 
-I like open source and contribute/maintain some libraries. Some of my favorites:
+Non-exhaustive list of stuff I work on:
 
 - [httpsnippet](https://www.github.com/darrenjennings/vue-autosuggest) HTTP
   Request snippet generator for many languages & libraries
@@ -34,9 +34,12 @@ I like open source and contribute/maintain some libraries. Some of my favorites:
 
 ### :microphone: Talks
 
-- Dec 4, 2018 [Podcast: Views on Vue](https://devchat.tv/views-on-vue/vov-046-component-composition-at-kong-with-darren-jennings/)
-- Jan 24, 2019 [Vue.SF Meetup @ Kong HQ - Open Source Your Components](https://github.com/darrenjennings/vuejs-sf-january-2019)
-- Jun 12, 2019 [Vue.SF Meetup @ SAP - Building Autosuggest Components](https://github.com/darrenjennings/vuejs-sf-june-2019)
+- Dec 4, 2018
+  [Podcast: Views on Vue](https://devchat.tv/views-on-vue/vov-046-component-composition-at-kong-with-darren-jennings/)
+- Jan 24, 2019
+  [Vue.SF Meetup @ Kong HQ - Open Source Your Components](https://github.com/darrenjennings/vuejs-sf-january-2019)
+- Jun 12, 2019
+  [Vue.SF Meetup @ SAP - Building Autosuggest Components](https://github.com/darrenjennings/vuejs-sf-june-2019)
 
 ### :book: This blog
 
