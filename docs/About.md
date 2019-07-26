@@ -7,7 +7,7 @@ permalink: /about
 Welcome to my personal website. I'm Darren Jennings. You can reach me on
 [twitter], [github], or [linkedin].
 
-I mostly blog about engineering things, mostly [Vue]. For hobbies, I like to
+I blog about engineering things, mostly [Vue]. For hobbies, I like to
 [brew coffee](https://www.thecoffeecompass.com/), practice
 [Brazilian Jiu Jitsu](https://derbycitymartialarts.com/), and spend time with my
 family, [nuclear](https://twitter.com/darrenjennings/status/1077663344767586304)
