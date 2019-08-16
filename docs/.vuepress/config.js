@@ -1,7 +1,7 @@
 const { path } = require('@vuepress/shared-utils')
 
 module.exports = {
-  title: '🗜 guuu',
+  title: 'Darren Jennings',
   description: ' ',
   plugins: [
     ['@vuepress/plugin-blog', {

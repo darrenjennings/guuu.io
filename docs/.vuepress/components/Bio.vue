@@ -3,8 +3,7 @@
     <div class="bio">
       <Avatar class="avatar" />
       <div class="bio-text">
-        Thanks for reading! I'm Darren Jennings. I live in San Francisco, but am a
-        Kentuckian at heart. You can follow me on
+        Thanks for reading! I'm Darren Jennings. You can follow me on
         <a
           target="_blank"
           href="https://www.twitter.com/darrenjennings"
@@ -18,7 +17,7 @@
 
 <style scoped>
 .bio-wrapper {
-  background-color:  hsl(220, 12%, 97%);
+  background-color: hsl(220, 12%, 97%);
 }
 .bio {
   max-width: var(--content-width, 640px);
@@ -28,17 +27,16 @@
   margin-bottom: 0;
 }
 .bio-text {
-  font-size: .9rem;
+  font-size: 0.9rem;
   font-weight: 400;
   padding: 0.25rem 0;
 }
 
 a:hover {
-  color: #3574FF;
+  color: #3574ff;
 }
 
 .avatar {
   padding-right: 1rem;
 }
-
 </style>
