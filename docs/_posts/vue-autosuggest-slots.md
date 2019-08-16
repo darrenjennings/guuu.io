@@ -4,6 +4,7 @@ description: Release of slots api to vue-autosuggest
 date: "2018-08-13T17:36:55.338Z"
 layout: Post
 tags: [vue, vue-autosuggest]
+image: https://s3.amazonaws.com/guuu/vue-autosuggest-sloth.jpeg
 ---
 
 ::: slot header

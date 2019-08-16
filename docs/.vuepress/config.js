@@ -26,7 +26,8 @@ module.exports = {
     // Generated and edited manually for now
     ['sitemap', {
       hostname: 'https://guuu.io',
-    }]
+    }],
+    'seo'
   ],
   head: [
     ['link', { rel: 'manifest', href: '/manifest.json' }],

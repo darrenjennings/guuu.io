@@ -4,6 +4,7 @@ description: Vue can use jsx to utilize the react pattern of a render prop
 date: "2018-03-12T17:36:55.338Z"
 layout: Post
 tags: [vue, patterns, react]
+image: https://s3.amazonaws.com/guuu/vue_react.jpeg
 ---
 
 ::: slot header

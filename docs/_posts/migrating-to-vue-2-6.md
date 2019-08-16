@@ -4,6 +4,7 @@ description: Migrating to Vue 2.6
 date: '2019-08-15T17:36:55.338Z'
 layout: Post
 tags: [vue]
+image: https://guuu.s3.amazonaws.com/how-to-migrate-vue-26.png
 ---
 
 ::: slot header
