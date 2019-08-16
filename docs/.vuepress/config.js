@@ -23,12 +23,10 @@ module.exports = {
       }
     ],
     'vuepress-plugin-reading-time',
-    /* Generated and edited manually for now
+    // Generated and edited manually for now
     ['sitemap', {
       hostname: 'https://guuu.io',
-    }], 
-    */
-    [require('./plugins/copy-sitemap')]
+    }]
   ],
   head: [
     ['link', { rel: 'manifest', href: '/manifest.json' }],
