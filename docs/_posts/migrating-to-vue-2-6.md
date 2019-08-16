@@ -12,7 +12,13 @@ tags: [vue]
 
 :::
 
-I recently migrated our static vue app at work from 2.5 -> 2.6. Here are some
+<div style="display: flex; justify-content: center; align-items: center;">
+  <div style="display: flex; margin-right: 1rem;">
+    <img src="https://guuu.s3.amazonaws.com/logo260.png" style="padding: 1rem; height: 150px;"/>
+  </div>
+</div>
+
+I recently migrated our static vue app at work from 2.x -> 2.6. Here are some
 notes that might help you:
 
 ## Update your dependencies to 2.6
