@@ -19,27 +19,38 @@ built on top of [Open Resty].
 
 ---
 
+
 ### Open Source
 
 Non-exhaustive list of stuff I work on:
 
-- [httpsnippet](https://www.github.com/darrenjennings/vue-autosuggest) HTTP
-  Request snippet generator for many languages & libraries
-- [vue-autosuggest](https://www.github.com/darrenjennings/vue-autosuggest) an
+<KCard hasHover>
+  <div class="px-5" slot="body">
+
+  [vue-autosuggest](https://www.github.com/darrenjennings/vue-autosuggest) an
   autosuggest or omnibox solution for vue apps.
-- [kong-plugin-session](https://www.github.com/kong/kong-plugin-session)
+
+  [httpsnippet](https://www.github.com/darrenjennings/vue-autosuggest) HTTP
+  Request snippet generator for many languages & libraries
+  
+  [kong-plugin-session](https://www.github.com/kong/kong-plugin-session)
   :cookie: Session plugin for Kong.
-- [vuepress-plugin-reading-time](https://github.com/darrenjennings/vuepress-plugin-reading-time)
+
+  [vuepress-plugin-reading-time](https://github.com/darrenjennings/vuepress-plugin-reading-time)
   a vuepress plugin plugin to display how long a post takes to read.
+
+  </div>
+</KCard>
 
 ### :microphone: Talks
 
-- Dec 4, 2018
-  [Podcast: Views on Vue](https://devchat.tv/views-on-vue/vov-046-component-composition-at-kong-with-darren-jennings/)
-- Jan 24, 2019
-  [Vue.SF Meetup @ Kong HQ - Open Source Your Components](https://github.com/darrenjennings/vuejs-sf-january-2019)
 - Jun 12, 2019
   [Vue.SF Meetup @ SAP - Building Autosuggest Components](https://github.com/darrenjennings/vuejs-sf-june-2019)
+- Jan 24, 2019
+  [Vue.SF Meetup @ Kong HQ - Open Source Your Components](https://github.com/darrenjennings/vuejs-sf-january-2019)
+- Dec 4, 2018
+  [Podcast: Views on Vue](https://devchat.tv/views-on-vue/vov-046-component-composition-at-kong-with-darren-jennings/)
+
 
 ### :book: This blog
 

@@ -2,7 +2,7 @@
   <div class="tags">
     <div class="tag" v-for="tag in tagList">
       <router-link :to="$tags.map[tag].path">
-      <Badge>{{ tag }}</Badge>
+        <KBadge appearance="success">{{ tag }}</KBadge>
       </router-link>
     </div>
   </div>
@@ -34,15 +34,11 @@
   justify-content: left;
   width: 100%;
   display: flex;
+  --KBadgeWidth: auto;
+  --KBadgePaddingX: 1rem;
 }
 
 .tags .tag {
-  float: left;
   margin-right: 0.25rem;
-}
-
-.tag .badge {
-  background-color: var(--tag-badge-color) !important;
-  white-space: nowrap;
 }
 </style>

@@ -1,3 +1,5 @@
+import kongponents from './components/kongponents'
+
 export default ({
   Vue, // the version of Vue being used in the VuePress app
   options, // the options for the root Vue instance
@@ -7,7 +9,11 @@ export default ({
   console.log(`Whoever rebukes a man will afterward 
               find more favor than he who flatters with his tongue.`)
 
+  kongponents.forEach(k => {
+    Vue.component(k, window[k])
+  })
+
   router.addRoutes([
     { path: '/beautiful-vue/', redirect: 'beautiful-vue/data-reducer/' },
-  ])          
+  ])
 }
