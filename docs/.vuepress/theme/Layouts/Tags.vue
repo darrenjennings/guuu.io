@@ -1,7 +1,7 @@
 <template>
   <div id="tags">
     <div class="content">
-      <TagBadges :tags="$tags.list.map(t => t.name).sort()"/>
+      <TagBadges v-if="$tags" :tags="$tags.list.map(t => t.name).sort()"/>
     </div>
     <Layout/>
   </div>

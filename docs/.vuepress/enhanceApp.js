@@ -9,9 +9,11 @@ export default ({
   console.log(`Whoever rebukes a man will afterward 
               find more favor than he who flatters with his tongue.`)
 
-  kongponents.forEach(k => {
-    Vue.component(k, window[k])
-  })
+  if (window) {
+    kongponents.forEach(k => {
+      Vue.component(k, window[k])
+    })
+  }
 
   router.addRoutes([
     { path: '/beautiful-vue/', redirect: 'beautiful-vue/data-reducer/' },

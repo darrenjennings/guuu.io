@@ -1,4 +1,5 @@
 const { path } = require('@vuepress/shared-utils')
+const kongponents = require('./components/kongponents')
 
 module.exports = {
   title: 'Darren Jennings',
@@ -35,7 +36,7 @@ module.exports = {
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
     ['link', { rel: 'apple-touch-icon', href: '/icons/icon-192x192.png' }],
-    ...require('./components/kongponents').map(name => ([
+    ...kongponents.map(name => ([
       'script', {src: `https://unpkg.com/@kongponents/${name.toLowerCase()}@latest/dist/${name}.umd.min.js`}
     ])),
     ['link', { rel: 'stylesheet', href: 'https://unpkg.com/@kongponents/styles@latest/styles.css' }],

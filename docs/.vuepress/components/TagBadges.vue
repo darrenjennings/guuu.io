@@ -1,7 +1,7 @@
 <template>
   <div class="tags">
     <div class="tag" v-for="tag in tagList">
-      <router-link :to="$tags.map[tag].path">
+      <router-link v-if="$tags" :to="$tags.map[tag].path">
         <KBadge appearance="success">{{ tag }}</KBadge>
       </router-link>
     </div>
