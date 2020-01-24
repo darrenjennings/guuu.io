@@ -4,6 +4,5 @@ permalink: /
 description: Darren Jennings
 ---
 
-<Avatar header-text="guuu"/>
-
+<Avatar header-text="darren" />
 <Archive />

@@ -6,12 +6,14 @@ date: 2018-12-30 16:16:00
 tags: [vue, patterns, beautiful-vue]
 layout: Post
 editLinkPath: docs/_posts/beautiful-vue/data-reducer.md
+image: https://guuu.s3.amazonaws.com/reduce.jpeg
 ---
 
 ::: slot header
 # {{ this.$page.title }}
 :::
 
+<img :src="$page.frontmatter.image" />
 
 Imagine that you are writing a Vue application for a shopping cart, where the
 user is able to control how many items they want in their cart.

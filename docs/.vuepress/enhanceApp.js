@@ -9,7 +9,7 @@ export default ({
   console.log(`Whoever rebukes a man will afterward 
               find more favor than he who flatters with his tongue.`)
 
-  if (window) {
+  if (typeof window !== "undefined") {
     kongponents.forEach(k => {
       Vue.component(k, window[k])
     })

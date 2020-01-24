@@ -42,6 +42,7 @@ module.exports = {
     ['link', { rel: 'stylesheet', href: 'https://unpkg.com/@kongponents/styles@latest/styles.css' }],
   ],
   themeConfig: {
+    search: false,
     nav: [
       { text: 'About', link: '/about/' },
     ]

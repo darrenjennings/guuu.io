@@ -17,6 +17,12 @@ I'm currently Tech Lead at [Kong] where I lead frontend architecture, our Vue
 component library, as well as write cool stuff for our entirely Lua backend
 built on top of [Open Resty].
 
+<div class="w-100">
+  <img class="w-100" src="https://guuu.s3.amazonaws.com/sliver.png"/>
+</div>
+
+<br>
+
 ---
 
 
@@ -24,7 +30,7 @@ built on top of [Open Resty].
 
 Non-exhaustive list of stuff I work on:
 
-<KCard hasHover>
+<KCard hasShadow>
   <div class="px-5" slot="body">
 
   [vue-autosuggest](https://www.github.com/darrenjennings/vue-autosuggest) an
