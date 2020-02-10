@@ -1,10 +1,8 @@
 <template>
   <div id="tags">
-    <ClientOnly>
-      <div class="content">
-        <TagBadges :tags="$tags.list.map(t => t.name).sort()"/>
-      </div>
-    </ClientOnly>
+    <div class="content">
+      <TagBadges :tags="$tags.list.map(t => t.name).sort()"/>
+    </div>
     <Layout/>
   </div>
 </template>

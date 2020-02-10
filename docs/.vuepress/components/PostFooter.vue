@@ -1,6 +1,6 @@
 <template>
   <div class="post-footer">
-    <div class="post-footer-item">Tags:
+    <div class="post-footer-item">
       <TagBadges style="padding-left: 0.25rem;"/>
     </div>
     <div class="post-footer-item">

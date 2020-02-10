@@ -1,7 +1,7 @@
 <template>
   <div>
     <a target="_blank" :href="editLink">
-      Edit this page on Github<OutboundLink/>
+      Edit on Github<OutboundLink/>
     </a>
   </div>
 </template>

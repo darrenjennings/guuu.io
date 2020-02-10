@@ -27,7 +27,6 @@
   margin-bottom: 0;
 }
 .bio-text {
-  font-size: 0.9rem;
   font-weight: 400;
   padding: 0.25rem 0;
 }

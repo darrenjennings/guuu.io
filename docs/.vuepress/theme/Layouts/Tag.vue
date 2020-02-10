@@ -1,7 +1,9 @@
 <template>
   <div>
     <div class="content">
-      <TagBadges :tags="[tagName]"/>
+      <div class="d-flex pl-4">
+        <TagBadges :tags="[tagName]"/>
+      </div>
       <Archive :groupByYear="false" :filter="filterByTag"/>
     </div>
     <Layout/>
@@ -24,9 +26,3 @@ export default {
   }
 };
 </script>
-
-<style scoped>
-.tags {
-  padding-left: 1.2em;
-}
-</style>
