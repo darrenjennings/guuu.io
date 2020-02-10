@@ -3,7 +3,7 @@ title: Data Fetching using Vue Hooks
 description:
   Learn about data fetching using vue hooks, and how to use swrv, a
   stale-while-revalidate data fetching library for the vue composition api.
-date: '2020-02-03T15:03:50.338Z'
+date: '2020-02-10T16:16:50.338Z'
 layout: Post
 tags: [vue, swrv, 'data fetching', 'vue composition api']
 image:
