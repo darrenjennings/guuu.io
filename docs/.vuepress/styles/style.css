@@ -29,10 +29,17 @@ h1 {
   margin-bottom: 2rem;
 }
 
-img + em {
+img + em, .bigger-image + em {
   font-size: 14px;
   text-align: center;
   color: var(--text-muted, #999);
+  font-weight: 600;
   display: flex;
   justify-content: center;
+}
+
+@media (min-width: 900px) {
+  .bigger-image {
+    margin: 0 -100px 0;
+  } 
 }
