@@ -291,7 +291,7 @@ states, different caching strategies, polling, onFocus revalidation etc.
 
 ## SWRV
 
-[swrv](pronounced 'swerve') is a library using
+[swrv] (pronounced 'swerve') is a library using
 [@vue/composition-api](https://github.com/vuejs/composition-api) hooks for
 remote data fetching. It is largely a port of
 [swr](https://github.com/zeit/swr). Our example can be refactored:
