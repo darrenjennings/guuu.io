@@ -128,7 +128,7 @@ export default {
 </script>
 ```
 
-This gets a bit ugly and is not reactive in the event that `userId` changes.
+This gets a bit ugly and is not reactive in the event that `username` changes.
 Let's clean it up a bit with the
 [@vue/composition-api](https://vue-composition-api-rfc.netlify.com/) to
 [keep the data flowing](https://overreacted.io/writing-resilient-components/#principle-1-dont-stop-the-data-flow)
@@ -157,7 +157,7 @@ export default {
   setup(props) {
     const profile = ref([])
 
-    // when props.userId changes, vue's reactivity automatically
+    // when props.username changes, vue's reactivity automatically
     // registers the change and re-triggers the data fetch.
     watch(() => {
       fetch(`/api/user/${props.username}`)

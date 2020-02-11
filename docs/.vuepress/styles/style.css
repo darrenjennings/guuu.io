@@ -10,10 +10,6 @@ h1::selection, h2::selection, h3::selection, a::selection {
   color: white;
 }
 
-h1 {
-  font-family: monospace;
-}
-
 .page-edit{
   display: none;
 }
