@@ -24,7 +24,6 @@ module.exports = {
       }
     ],
     'vuepress-plugin-reading-time',
-    // Generated and edited manually for now
     ['sitemap', {
       hostname: 'https://guuu.io',
     }],

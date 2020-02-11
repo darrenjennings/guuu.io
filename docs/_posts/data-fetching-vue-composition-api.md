@@ -6,7 +6,7 @@ description:
 date: '2020-02-10T16:16:50.338Z'
 layout: Post
 tags: [vue, swrv, 'data fetching', 'vue composition api']
-image:
+image: https://guuu.s3.amazonaws.com/swrv.png
 ---
 
 ::: slot header
@@ -79,8 +79,8 @@ a `<UserProfile>` component, the profile page will then need to fetch data from
 This is common in RESTful endpoints when an endpoint doesn't support
 [eager relations](https://typeorm.io/#/eager-and-lazy-relations), specify join
 fields, or if you are not using [GraphQL](https://graphql.org/learn/queries/)
-which is able to return specific fields. The subsequent mounting and network
-cost could get expensive:
+which is able to specify multiple return entities. The subsequent mounting and
+network cost blocking the render could get expensive.
 
 ```vue
 <template>
@@ -88,6 +88,9 @@ cost could get expensive:
     <img class="avatar" :src="profile.avatar" />
     <div>{{ profile.user.username }}</div>
     <div>{{ profile.twitter }}</div>
+  </div>
+  <div v-else>
+    <Loading />
   </div>
 </template>
 
@@ -140,6 +143,9 @@ and utilize the new vue `setup` function.
     <img class="avatar" :src="profile.avatar" />
     <div>{{ profile.user.username }}</div>
     <div>{{ profile.twitter }}</div>
+  </div>
+  <div v-else>
+    <Loading />
   </div>
 </template>
 
@@ -344,7 +350,7 @@ asynchronous function, so you can use your favorite data-fetching library.
 
 - in-flight promise **de-duplication** in the event that a page loads the same
   data in multiple components.
-  
+
 <p class="bigger-image">
 <img alt="" src="https://guuu.s3.amazonaws.com/swrv-vue-data-fetching.png" />
 </p>
@@ -363,7 +369,7 @@ asynchronous function, so you can use your favorite data-fetching library.
 - custom **caching** strategies - by default cache is in-memory, but can be
   customized to use `localStorage` for better offline experiences. `swrv`
   manages the cache store, and provides ttl mechanisms for eviction.
-- pagination. here is a short demo of using pagination in `swrv`:
+- pagination. here is a short demo of using pagination in `swrv`
 
 <iframe src="https://codesandbox.io/embed/swrv-base-69w6y?fontsize=14&hidenavigation=1&theme=dark" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
