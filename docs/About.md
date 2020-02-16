@@ -25,7 +25,6 @@ built on top of [Open Resty].
 
 ---
 
-
 ### Open Source
 
 Non-exhaustive list of stuff I work on:
@@ -33,20 +32,22 @@ Non-exhaustive list of stuff I work on:
 <KCard hasShadow>
   <div class="px-5" slot="body">
 
-  [vue-autosuggest](https://www.github.com/darrenjennings/vue-autosuggest) an
-  autosuggest or omnibox solution for vue apps.
-  
-  [kongponents](https://github.com/Kong/kongponents) Kong's Vue component 
-  library
+[swrv](https://www.github.com/darrenjennings/vue-autosuggest)
+Stale-while-revalidate data fetching library for Vue.
 
-  [httpsnippet](https://www.github.com/darrenjennings/vue-autosuggest) HTTP
-  Request snippet generator for many languages & libraries
-  
-  [kong-plugin-session](https://www.github.com/kong/kong-plugin-session)
-  :cookie: Session plugin for Kong.
+[vue-autosuggest](https://www.github.com/darrenjennings/vue-autosuggest) an
+autosuggest or omnibox solution for vue apps.
 
-  [vuepress-plugin-reading-time](https://github.com/darrenjennings/vuepress-plugin-reading-time)
-  a vuepress plugin plugin to display how long a post takes to read.
+[kongponents](https://github.com/Kong/kongponents) Kong's Vue component library
+
+[httpsnippet](https://www.github.com/darrenjennings/vue-autosuggest) HTTP
+Request snippet generator for many languages & libraries
+
+[kong-plugin-session](https://www.github.com/kong/kong-plugin-session) :cookie:
+Session plugin for Kong.
+
+[vuepress-plugin-reading-time](https://github.com/darrenjennings/vuepress-plugin-reading-time)
+a vuepress plugin plugin to display how long a post takes to read.
 
   </div>
 </KCard>
@@ -59,7 +60,6 @@ Non-exhaustive list of stuff I work on:
   [Vue.SF Meetup @ Kong HQ - Open Source Your Components](https://github.com/darrenjennings/vuejs-sf-january-2019)
 - Dec 4, 2018
   [Podcast: Views on Vue](https://devchat.tv/views-on-vue/vov-046-component-composition-at-kong-with-darren-jennings/)
-
 
 ### :book: This blog
 
