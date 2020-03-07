@@ -32,8 +32,8 @@ Non-exhaustive list of stuff I work on:
 <KCard hasShadow>
   <div class="px-5" slot="body">
 
-[swrv](https://www.github.com/darrenjennings/vue-autosuggest)
-Stale-while-revalidate data fetching library for Vue.
+[swrv](https://www.github.com/Kong/swrv) Stale-while-revalidate data fetching library
+for Vue.
 
 [vue-autosuggest](https://www.github.com/darrenjennings/vue-autosuggest) an
 autosuggest or omnibox solution for vue apps.
