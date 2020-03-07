@@ -64,7 +64,7 @@ There are many options now in how a developer might go about
 [fetching data](https://sergiodxa.com/articles/render-as-you-fetch/), so even if
 you are triggering a fetch at different points in the render
 [lifecycle](https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram), your
-application typically will be constrained by the eventual **inconsitent and
+application typically will be constrained by the eventual **inconsistent and
 cascading network latency**.
 
 For example if we also want to show all users with a link to their profile, e.g.
