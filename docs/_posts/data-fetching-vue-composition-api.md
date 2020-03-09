@@ -111,20 +111,14 @@ export default {
 
   mounted() {
     fetch(`/api/user/${this.username}`)
-      .then(res => {
-        return res.json()
-      })
-      .then(user => {
-        fetch(`/api/user/${user.id}/profile`)
-          .then(res => {
-            return res.json()
-          })
-          .then(profile => {
-            this.profile = {
-              ...profile,
-              user
-            }
-          })
+      .then(res => res.json())
+      .then(user => fetch(`/api/user/${user.id}/profile`))
+      .then(res => res.json())
+      .then(profile => {
+        this.profile = {
+          ...profile,
+          user
+        }
       })
   }
 }
@@ -168,12 +162,10 @@ export default {
     watch(() => {
       fetch(`/api/user/${props.username}`)
         .then(res => res.json())
-        .then(user => {
-          fetch(`/api/user/${user.id}/profile`)
-            .then(res => res.json())
-            .then(profile => {
-              profile.value = { ...profile, user }
-            })
+        .then(user => fetch(`/api/user/${user.id}/profile`))
+        .then(res => res.json())
+        .then(profile => {
+          profile.value = { ...profile, user }
         })
     })
 
@@ -260,26 +252,24 @@ export default {
       // eventually consistent UI.
       fetch(`/api/user/${props.username}`)
         .then(res => res.json())
-        .then(user => {
-          fetch(`/api/user/${user.id}/profile`)
-            .then(res =>  res.json())
-            .then(profile => {
-              profile.value = {
-                ...profile,
-                user
-              }
-              root.$store.dispatch('cache/setCacheItem', {
-                key: cacheKey,
-                profile
-              })
-            })
+        .then(user => fetch(`/api/user/${user.id}/profile`))
+        .then(res =>  res.json())
+        .then(profile => {
+          profile.value = {
+            ...profile,
+            user
+          }
+          
+          root.$store.dispatch('cache/setCacheItem', {
+            key: cacheKey,
+            profile
           })
         })
-
-      return {
-        profile
-      }
     })
+
+    return {
+      profile
+    }
   }
 }
 ```

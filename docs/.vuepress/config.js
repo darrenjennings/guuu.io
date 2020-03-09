@@ -13,7 +13,7 @@ module.exports = {
       selector: '.post .content img'
     }],
     ['@vuepress/pwa', {
-      serviceWorker: true,
+      serviceWorker: false,
       popupComponent: 'MySWUpdatePopup',
       updatePopup: true
     }],
