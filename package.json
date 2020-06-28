@@ -7,7 +7,7 @@
   "scripts": {
     "remove-prism": "sed -i.bak -e \":a\" -e 'N' -e '$!ba' -e \"s/<style src=\\\"prismjs.*css\\\"><\\/style>/ /\" node_modules/@vuepress/theme-default/layouts/Layout.vue",
     "docs:dev": "yarn remove-prism && vuepress dev docs",
-    "docs:build": "yarn remove-prism && vuepress build docs"
+    "docs:build": "yarn remove-prism && vuepress build docs && cp ./_redirects docs/.vuepress/dist/."
   },
   "devDependencies": {
     "@vuepress/plugin-blog": "1.0.0-alpha.48",
