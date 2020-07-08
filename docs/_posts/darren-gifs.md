@@ -85,7 +85,7 @@ url</span> and put it as the target of your redirect:
 
 `dist/_redirects`
 
-```conf redirects
+```
 https://guuu.io/gifs/:name  https://raw.githubusercontent.com/darrenjennings/darren-gifs/master/gifs/:name.gif  301
 ```
 
@@ -127,3 +127,4 @@ Check out my GitHub repo to see the source, and all my gifs and a copy of the
 alfred workflow
 
 - [https://github.com/darrenjennings/darren-gifs](https://github.com/darrenjennings/darren-gifs)
+- [Tweet this article](https://twitter.com/intent/tweet?text=Personal%20Gifs%20as%20a%20Service%20by%20%40darrenjennings%20https%3A//guuu.io/2020/darren-gifs/)
