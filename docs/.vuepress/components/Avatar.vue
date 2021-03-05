@@ -1,5 +1,5 @@
 <template>
-  <div class="top">
+  <div class="top d-flex align-items-center">
     <router-link to="/about/" class="avatar">
       <img alt="Darren Jennings face" src="/avatar_blanket.png"/>
     </router-link>

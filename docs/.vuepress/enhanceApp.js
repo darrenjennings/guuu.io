@@ -1,4 +1,5 @@
 import kongponents from './components/kongponents'
+import 'css.gg/icons/all.css'
 
 export default ({
   Vue, // the version of Vue being used in the VuePress app
