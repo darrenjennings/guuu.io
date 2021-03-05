@@ -46,12 +46,6 @@
 }
 
 .k-badge{
-  text-overflow: ellipsis;
-  max-width: 40ch;
-  overflow-x: hidden;
-  white-space: nowrap;
-  display: block !important;
-  padding-top: 0.7rem !important;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  --font-family-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 </style>
