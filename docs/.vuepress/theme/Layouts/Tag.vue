@@ -16,6 +16,10 @@ export default {
   components: { Layout },
   methods: {
     filterByTag(page) {
+      if (!page.frontmatter.tags) {
+        return false
+      }
+      
       return page.frontmatter.tags.indexOf(this.tagName) > -1;
     }
   },
