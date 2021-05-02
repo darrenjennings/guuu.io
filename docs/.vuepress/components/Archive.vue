@@ -5,7 +5,7 @@
       <ul :key="page.title" v-for="page in sortByDate(archivePages[year])">
         <li :id="page.key" v-if="page.title && page.title !== 'guuu'">
           <router-link :to="page.path">{{page.title}}</router-link>
-          <Date :page="page"/>
+          <Date class="color-black-300 type-sm" :page="page"/>
         </li>
       </ul>
     </div>
