@@ -1,11 +1,5 @@
 <template>
-  <span class="reading-time">
+  <span class="color-black-300">
     {{ $page.readingTime.text }}
   </span>
 </template>
-
-<style scoped>
-.reading-time {
-  color: hsl(0, 0%, 60%)
-}
-</style>

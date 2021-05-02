@@ -1,5 +1,5 @@
 <template>
-  <div class="date-container">
+  <div class="date-container color-black-300">
     <span class="date">{{dateFormatted}}</span>
   </div>
 </template>
@@ -31,7 +31,5 @@
 <style>
 .date {
   font-weight: 400;
-  font-size: 14px;
-  color: hsl(0,0%, 60%);
 }
 </style>
