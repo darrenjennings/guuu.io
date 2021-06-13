@@ -1,7 +1,7 @@
 ---
 title: Reflections 2020-2021
 description: Reflecting on 2020-2021
-date: '2021-03-17T01:36:52.432Z'
+date: '2021-06-12T10:13:00.432Z'
 layout: Post
 tags: [personal,reflection]
 ---
@@ -34,7 +34,7 @@ Work had given me a lot of freedom as it related to a new greenfield project we 
  
 After the successful launch of Konnect, I was looking for the next challenge. I wanted to go to a bigger company, remote-friendly teams, and where I could go on to gain some experience with a larger organization (> 1000 people). [Stripe](http://stripe.com/) fit all these boxes, as they had [invested in "remote"](https://stripe.com/blog/remote-hub) years before COVID, even establishing it as its own "office" similar to SF or NY. Kong has a great culture with tons of interesting problems, but after 3 years I wanted a change and I am hopeful to see my tenure at Stripe push the envelope for how long I'll stay at a company (10? 20 years?).
  
-In 2020, I learned Types are everything. I continued to invest in open source, pursuing a project [swrv](https://github.com/swrv), a data fetching and cache management library for Vue, and I even [wrote about it](data-fetching-vue-composition-api.md). It was a cool mixture of learning Vue's new composition api with Typescript mixed with the fun times of maintaining a library. It also helped me stay fresh on the latest React ecosystem by reviewing the [swr](https://github.com/vercel/swr) code and adapting it for Vue's reactivity. I love what that crew is doing with [Next](https://nextjs.org/) and SWR.
+In 2020, I learned Types are everything. I continued to invest in open source, pursuing a project [swrv](https://github.com/Kong/swrv), a data fetching and cache management library for Vue, and I even [wrote about it](data-fetching-vue-composition-api.md). It was a cool mixture of learning Vue's new composition api with Typescript mixed with the fun times of maintaining a library. It also helped me stay fresh on the latest React ecosystem by reviewing the [swr](https://github.com/vercel/swr) code and adapting it for Vue's reactivity. I love what that crew is doing with [Next](https://nextjs.org/) and SWR.
  
 I also helped out a bit with [teal-language](https://github.com/teal-language/tl), a typed dialect of lua created by a former coworker [Hisham](https://twitter.com/hisham_hm) (of [htop](https://github.com/htop-dev/htop) fame). I wrote the in-browser playground in Vue + [Fengari](https://fengari.io/) to embed the teal compiler into the browser. This was super fun to work on, though I think my days with teal-language are numbered now that I probably won't be investing much in the Lua ecosystem. Never say never! I will continue to follow along with the teal ecosystem and hope to bring my zeal for types to Stripe's [typed dialect of Ruby](https://sorbet.org/).
  
