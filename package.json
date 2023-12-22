@@ -5,24 +5,8 @@
   "author": "Darren Jennings <dmjenn02@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "remove-prism": "sed -i.bak -e \":a\" -e 'N' -e '$!ba' -e \"s/<style src=\\\"prismjs.*css\\\"><\\/style>/ /\" node_modules/@vuepress/theme-default/layouts/Layout.vue",
-    "dev": "yarn remove-prism && vuepress dev docs",
-    "prebuild": "yarn remove-prism",
-    "build": "vuepress build docs",
-    "postbuild": "cp ./_redirects docs/.vuepress/dist/."
-  },
-  "devDependencies": {
-    "@vuepress/plugin-blog": "1.0.0-alpha.48",
-    "@vuepress/plugin-google-analytics": "1.0.0-alpha.48",
-    "@vuepress/plugin-medium-zoom": "1.0.0-alpha.48",
-    "@vuepress/plugin-pwa": "1.0.0-alpha.48",
-    "@vuepress/plugin-register-components": "1.0.0-alpha.48",
-    "vuepress": "1.0.0-alpha.48",
-    "vuepress-plugin-reading-time": "^0.1.1",
-    "vuepress-plugin-seo": "^0.1.2",
-    "vuepress-plugin-sitemap": "^2.1.0"
+    "dev": "http-server"
   },
   "dependencies": {
-    "css.gg": "^2.0.0"
   }
 }

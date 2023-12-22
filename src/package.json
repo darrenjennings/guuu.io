@@ -1,0 +1,17 @@
+{
+  "name": "content-wind-template",
+  "private": true,
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "generate": "nuxi generate",
+    "preview": "nuxi preview"
+  },
+  "devDependencies": {
+    "content-wind": "latest",
+    "nuxt": "latest"
+  },
+  "dependencies": {
+    "netlify": "^13.1.11"
+  }
+}
